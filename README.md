@@ -13,4 +13,8 @@ About the economic meaning, this exercise intended to compare the relation betwe
 
 QLIpredictionregression.ipynb
 
+In this exercise, we compare decision tree regressor and mulitple regression for the prediction of Quality of Life Index (QLI) with the help of variables presented in the dataset. We also used Principal Component Analysis (PCA) for dimesnion reduction to combat the instances of overfitting due to a high dimensions of dataset. 
+
+Mulitple regression on four principle components allowed a test accuracy of around 93% whereas Decision Tree regressor on the four principle componenets presented a test accuracy of around 85%. In this scenario, the increased accuracy with the use of multiple regression cannot be attibuted to the large number of feature in comparison the the datset as we have used PCA for reduction of the dimensions and both decision tree and multiple regression have the same number of reduced features. 
+
 
